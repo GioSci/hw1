@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4242;
+}
+section{
+    height: 650px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 5px groove rgba(68, 34, 68, 0.451);
+    border-radius: 10px;
+
+}
+.campo{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.campo input{
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+.campo span{
+    visibility: hidden;
+}
+.campoErr input{
+    border: 1px solid rgb(240, 0, 0);; 
+}
+.campoErr span{
+    visibility: visible;
+    color: rgb(240, 0, 0);
+}
+label img{
+    width: 20px;
+    height: 10px;
+}
